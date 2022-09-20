@@ -13,3 +13,5 @@
   <br />
     <a href="https://github.com/YungSamzy/Hunter-Tetris/releases/latest"><strong>Download »</strong></a>
 </div>
+<br />
+<br />
