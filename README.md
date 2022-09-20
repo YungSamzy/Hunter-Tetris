@@ -10,4 +10,6 @@
   <p align="center">
     A game my friend forked, and I updated.
   </p>
+  <br />
+    <a href="https://github.com/YungSamzy/Hunter-Tetris/releases/latest"><strong>Download »</strong></a>
 </div>
