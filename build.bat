@@ -1,5 +1,6 @@
 @echo off
-pyinstaller --onefile --noconsole Hunter.py
+pyinstaller --icon icon.ico --onefile --noconsole Hunter.py
+PAUSE
 cls
 echo Build is in /dist
 PAUSE
