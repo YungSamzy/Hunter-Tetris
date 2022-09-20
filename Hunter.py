@@ -9,7 +9,7 @@ import os #added but you don't need to install anything
 #checks if the song is downloaded, if it isn't, it downloads it
 if os.path.exists("tetris.wav") == False:
     messagebox.showinfo("Tkinter Tetris","Initializing. If this takes more than a minute or two, please check your internet connection and try again!")
-    response = requests.get("https://balls4life.cf/files/tetris.wav")
+    response = requests.get("https://raw.githubusercontent.com/YungSamzy/Hunter-Tetris/main/tetris.wav")
     open("tetris.wav", "wb").write(response.content)
 
 winsound.PlaySound('tetris.wav', winsound.SND_LOOP + winsound.SND_ASYNC) #SND_LOOP makes the song loop until the program closes
